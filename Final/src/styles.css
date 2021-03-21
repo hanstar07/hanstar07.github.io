@@ -1,0 +1,126 @@
+@font-face{
+  src: url("fonts/SDSwaggerTTF.ttf");
+  font-family: "swagger";
+}
+
+input{
+  font-family: "swagger";
+  background-color:transparent;
+  border: none;
+  box-shadow: none;
+  color: white;
+  height: 50px;
+  width: 500px;
+}
+
+input::-webkit-input-placeholder {
+  font-family: "swagger";
+  text-align : center;
+  color: white;
+  font-size: 30pt;
+}
+input:focus {
+  font-family: "swagger";
+  outline: none;
+  text-align : center;
+  font-size: 30pt;
+}
+p{
+  font-size: 30pt;
+  margin: 0px
+}
+ul{
+  list-style:none;
+  color: white;
+  font-family: "swagger";
+  font-size: 30pt;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+button{
+  font-size: 20pt;
+  background-color:transparent;
+  border: none;
+}
+
+.weather{
+  font-family: "swagger";
+  text-align : right;
+  color: white;
+  font-size: 20pt;
+}
+
+.clock{
+  margin-top: 200px;
+  height: 170px;
+  font-family: "swagger";
+  text-align : center;
+  color: white;
+  font-size: 55pt;
+}
+
+.greeting{
+  height: 60px;
+  font-family: "swagger";
+  text-align : center;
+  color: white;
+  font-size: 20pt;
+}
+
+.toDo{
+  font-family: "swagger";
+  text-align : center;
+  font-size: 30pt;
+}
+.greetingForm{
+  display: none;
+}
+
+.pending{
+  width: 200px;
+  float: left;
+}
+
+.finished{
+  width: 200px;
+  float: left;
+}
+
+.toDoList{
+  display: inline-block;
+  text-align: center;
+}
+
+.showing {
+  display: block;
+}
+.bgImage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadein 1s linear;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
